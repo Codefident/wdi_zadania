@@ -8,4 +8,6 @@ def convert(n, s):
         print(cn[i], end="")
 
 
-convert(3309, 16)
+n = int(input("liczba naturalna = "))
+s = int(input("...na system: "))
+convert(n, s)
