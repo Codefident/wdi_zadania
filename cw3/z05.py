@@ -7,14 +7,11 @@ while True:
         break
     if i < 10:
         tab[i] = w
-        print(tab)
     elif w > min(tab):
         for j in range(len(tab)):
-                if tab[j] == min(tab):
-                    tab[j] = w
-                    break
-        print(tab)
+            if tab[j] == min(tab):
+                tab[j] = w
+                break
     i += 1
 
 print(min(tab))
-print(tab)
