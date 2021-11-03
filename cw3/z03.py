@@ -1,3 +1,5 @@
+# Napisać program generujący i wypisujący liczby pierwsze mniejsze od N metodą Sita Eratostenesa.
+
 def sieve(n):
     prime = [True for _ in range(n + 1)]
 
@@ -9,7 +11,7 @@ def sieve(n):
                 prime[j*i] = False
                 j += 1
         i += 1
-    
+
     for i, item in enumerate(prime):
         if item and i not in (0, 1):
             print(i, end=" ")

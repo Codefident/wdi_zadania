@@ -1,3 +1,7 @@
+# Napisać program wczytujący dwie liczby naturalne i odpowiadający na pytanie czy są one
+# zbudowane z takich samych cyfr, np. 123 i 321, 1255 i 5125, 11000 i 10001.
+
+
 import math
 
 
