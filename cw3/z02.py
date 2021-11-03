@@ -11,8 +11,8 @@ def sameDigits(a, b):
     # if a == b:
     #     return
 
-    a_digits = [i for i in range(10)]
-    b_digits = [i for i in range(10)]
+    a_digits = [0 for _ in range(10)]
+    b_digits = [0 for _ in range(10)]
 
     while a > 0:
         a_digits[a % 10] += 1
