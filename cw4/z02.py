@@ -17,8 +17,8 @@ def oddNumbers(t):
         for c in range(t_size):
             if allDigitsOdd(t[l][c]):
                 break
-            elif c == t_size - 1:
-                return False
+        else:
+            return False
 
     return True
 
