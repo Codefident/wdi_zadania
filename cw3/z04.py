@@ -28,6 +28,7 @@ for d in range(2, n):
 p = 0
 
 # odpowiednie przenoszenie "dziesiątek" tak aby w komórkach były tylko pojedyncze cyfry
+# to lepiej zrobić na bieżąco w drugim for w forze, chodzi o zakres pamięci (np C)
 for i in range(n - 1, -1, -1):
     s[i] += p
     p = s[i] // 10
