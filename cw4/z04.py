@@ -28,3 +28,15 @@ def biggestQuotient(t):
         if (min_sum is None or sum < min_sum) and sum > 0:
             min_sum = sum
             l_index = l
+
+    print(str(max_sum) + ' / ' + str(min_sum))
+    return (l_index, c_index)
+
+
+t = [
+    [1, 1, 7, 9],
+    [11, 31, 79, 3],
+    [55, 13, 318, 761],
+    [78, 8, 0, 470]
+]
+print(biggestQuotient(t))
