@@ -4,9 +4,9 @@
 
 from random import randint
 
-n = 6
+N = 6
 NUM_MAX_VALUE = 10
-t = [[randint(0, NUM_MAX_VALUE) for _ in range(n)] for _ in range(n)]
+t = [[randint(0, NUM_MAX_VALUE) for _ in range(N)] for _ in range(N)]
 
 for line in t:
     print('[---', end="\t")
