@@ -1,2 +1,3 @@
 # wdi_zadania
-Zadanka na WDI &lt;333
+
+W tym repo zamieszczam swoje (lepsze lub gorsze) *rozwiązania niektórych zadań z WDI*.
