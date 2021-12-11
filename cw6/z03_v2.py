@@ -1,3 +1,8 @@
+# Szachownica jest reprezentowana przez tablicę T[8][8] wypełnioną liczbami naturalnymi zawierającymi koszt przebywania na danym polu szachownicy. Król szachowy znajduje się w wierszu 0 i kolumnie
+# k. Król musi w dokładnie 7 ruchach dotrzeć do wiersza 7. Proszę napisać funkcję, która wyznaczy minimalny
+# koszt przejścia króla. Do funkcji należy przekazać tablicę t oraz startową kolumnę k. Koszt przebywania na
+# polu startowym i ostatnim także wliczamy do kosztu przejścia.
+
 # T = [[6, 7, 6, 6, 8, 6, 1, 6],
 #      [6, 3, 2, 9, 8, 3, 6, 6],
 #      [2, 6, 2, 8, 2, 6, 5, 9],
